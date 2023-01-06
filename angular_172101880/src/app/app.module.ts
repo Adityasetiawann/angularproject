@@ -14,6 +14,7 @@ import { Dashboard2Component } from './dashboard2/dashboard2.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { MahasiwaComponent } from './mahasiwa/mahasiwa.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ForexComponent } from './forex/forex.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { HttpClientModule } from '@angular/common/http';
     ContentComponent,
     FooterComponent,
     Dashboard2Component,
-    MahasiwaComponent
+    MahasiwaComponent,
+    ForexComponent
   ],
   imports: [
     BrowserModule,
